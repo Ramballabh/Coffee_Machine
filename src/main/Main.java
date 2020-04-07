@@ -30,7 +30,8 @@ public class Main {
                 int milk = scanner.nextInt();
                 System.out.println("Write how many grams of coffee beans the coffee machine has:");
                 int beans = scanner.nextInt();
-
+                System.out.println("Write how many cups of coffee you will need:");
+                int n = scanner.nextInt();
         }
     }
 }
