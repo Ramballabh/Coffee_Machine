@@ -2,6 +2,7 @@ package main;
 
 import stage1.Stage1;
 import stage2.Stage2;
+import stage3.Stage3;
 
 import java.util.Scanner;
 
@@ -20,7 +21,7 @@ public class Main {
                 int coffees = scanner.nextInt();
                 stage2.quantityOfDifferentMaterial(coffees);
             case 3:
-
+                Stage3 stage3 = new Stage3();
         }
     }
 }
