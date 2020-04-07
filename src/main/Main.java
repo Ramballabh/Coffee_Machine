@@ -17,6 +17,7 @@ public class Main {
             case 2:
                 Stage2 stage2 = new Stage2();
                 System.out.println("Write how many cups of coffee you will need:");
+                int coffees = scanner.nextInt();
         }
     }
 }
