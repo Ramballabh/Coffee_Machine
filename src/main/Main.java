@@ -36,6 +36,7 @@ public class Main {
                 System.out.println("Write how many cups of coffee you will need:");
                 int n = scanner.nextInt();
                 stage3.amountOfCoffee(water, milk, beans, n);
+                break;
         }
     }
 }
