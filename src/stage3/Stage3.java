@@ -8,6 +8,7 @@ public class Stage3 {
 
         int min = Math.min(water, milk);
         min = Math.min(beans, min);
+        printMessage(n, min);
     }
 
     public void printMessage(int n, int min) {
