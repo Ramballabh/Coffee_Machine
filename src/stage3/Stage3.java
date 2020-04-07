@@ -11,7 +11,7 @@ public class Stage3 {
         printMessage(n, min);
     }
 
-    public void printMessage(int n, int min) {
+    private void printMessage(int n, int min) {
         if (n == min) {
             System.out.println("Yes, I can make that amount of coffee");
         } else if (n < min) {
