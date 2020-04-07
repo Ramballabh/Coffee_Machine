@@ -6,5 +6,8 @@ public class Stage3 {
         milk /= 50;
         beans /= 15;
 
+        int min = Math.min(water, milk);
+        min = Math.min(beans, min);
+
     }
 }
