@@ -20,8 +20,12 @@ public class Main {
                 System.out.println("Write how many cups of coffee you will need:");
                 int coffees = scanner.nextInt();
                 stage2.quantityOfDifferentMaterial(coffees);
+                break;
             case 3:
                 Stage3 stage3 = new Stage3();
+
+                System.out.println("Write how many ml of water the coffee machine has:");
+                int water = scanner.nextInt();
         }
     }
 }
