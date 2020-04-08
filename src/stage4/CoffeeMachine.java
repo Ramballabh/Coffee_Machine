@@ -79,4 +79,8 @@ public class CoffeeMachine {
         coffeeMachine.setMoney(0);
     }
 
+    public void buyAction(CoffeeMachine coffeeMachine) {
+
+    }
+
 }
