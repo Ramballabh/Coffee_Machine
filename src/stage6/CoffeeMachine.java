@@ -42,4 +42,8 @@ public class CoffeeMachine {
 
     }
 
+    private void fill(int water, int milk, int beans, int cups) {
+
+    }
+
 }
