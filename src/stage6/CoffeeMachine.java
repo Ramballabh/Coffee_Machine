@@ -58,5 +58,32 @@ public class CoffeeMachine {
         int milk = 0;
         int beans = 0;
         int money = 0;
+
+        switch (type) {
+            case 1: {
+                water = 250;
+                milk = 0;
+                beans = 16;
+                money = 4;
+                break;
+            }
+            case 2: {
+                water = 350;
+                milk = 75;
+                beans = 20;
+                money = 7;
+                break;
+            }
+            case 3: {
+                water = 200;
+                milk = 100;
+                beans = 12;
+                money = 6;
+                break;
+            }
+            default: {
+                break;
+            }
+        }
     }
 }
