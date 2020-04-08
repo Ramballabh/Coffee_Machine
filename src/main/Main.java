@@ -43,6 +43,10 @@ public class Main {
                 coffeeMachine.printMachineState();
                 coffeeMachine.menu(coffeeMachine);
                 coffeeMachine.printMachineState();
+                break;
+            case 5:
+                stage5.CoffeeMachine coffeeMachine1 = new stage5.CoffeeMachine();
+
         }
     }
 }
