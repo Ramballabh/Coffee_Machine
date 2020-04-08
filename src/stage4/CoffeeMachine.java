@@ -73,4 +73,9 @@ public class CoffeeMachine {
         coffeeMachine.setCoffeeN(Integer.parseInt(coffeeMachine.askAnswer("Write how many grams of coffee beans do you want to add: ")));
         coffeeMachine.setCups(Integer.parseInt(coffeeMachine.askAnswer("Write how many disposable cups of coffee do you want to add:")));
     }
+
+    public void takeAction(CoffeeMachine coffeeMachine) {
+
+    }
+
 }
