@@ -44,6 +44,7 @@ public class CoffeeMachine {
             case "buy":
                 coffeeMachine.buyAction(coffeeMachine);
                 System.out.println();
+                break;
         }
     }
 
