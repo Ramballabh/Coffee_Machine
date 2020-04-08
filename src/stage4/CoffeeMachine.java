@@ -94,4 +94,14 @@ public class CoffeeMachine {
         }
     }
 
+    public void printMachineState() {
+        System.out.println("The coffee machine has:");
+        System.out.println(this.waterN + " of water");
+        System.out.println(this.milkN + " of milk");
+        System.out.println(this.coffeeN + " of coffee beans");
+        System.out.println(this.cups + " of disposable cups");
+        System.out.println(this.money + " of money");
+        System.out.println();
+    }
+
 }
