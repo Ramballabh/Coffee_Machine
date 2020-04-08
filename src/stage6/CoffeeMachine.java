@@ -39,6 +39,8 @@ public class CoffeeMachine {
 
     private void processTake() {
         System.out.println(String.format("I gave you $%d", this.money));
+        this.take();
+
 
     }
 
@@ -101,5 +103,6 @@ public class CoffeeMachine {
             this.cups--;
             this.money += money;
         }
+
     }
 }
