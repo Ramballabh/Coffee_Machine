@@ -71,6 +71,6 @@ public class CoffeeMachine {
         coffeeMachine.setWaterN(Integer.parseInt(coffeeMachine.askAnswer("Write how many ml of water do you want to add: ")));
         coffeeMachine.setMilkN(Integer.parseInt(coffeeMachine.askAnswer("Write how many ml of milk do you want to add: ")));
         coffeeMachine.setCoffeeN(Integer.parseInt(coffeeMachine.askAnswer("Write how many grams of coffee beans do you want to add: ")));
-
+        coffeeMachine.setCups(Integer.parseInt(coffeeMachine.askAnswer("Write how many disposable cups of coffee do you want to add:")));
     }
 }
