@@ -32,6 +32,7 @@ public class CoffeeMachine {
 
     private void processBuy() {
         System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:");
+        String type = this.scanner.nextLine();
 
     }
 }
