@@ -12,6 +12,7 @@ public class CoffeeMachine {
     static Scanner in = new Scanner(System.in);
 
     public static void buy() {
+        System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:");
 
     }
 
