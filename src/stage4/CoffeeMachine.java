@@ -75,7 +75,8 @@ public class CoffeeMachine {
     }
 
     public void takeAction(CoffeeMachine coffeeMachine) {
-
+        System.out.println("I gave you $" + this.money);
+        coffeeMachine.setMoney(0);
     }
 
 }
