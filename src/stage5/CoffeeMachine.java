@@ -31,7 +31,7 @@ public class CoffeeMachine {
                 return;
             }
         }
-        }
+    }
 
     public static String makeCoffee(int water, int milk, int coffeeBeans, int money) {
         String res = "Sorry, not enough ";
@@ -80,4 +80,13 @@ public class CoffeeMachine {
         CoffeeMachine.disposableCups += Integer.parseInt(in.nextLine());
     }
 
+    public static void showStats() {
+        System.out.printf("The coffee machine has:\n" +
+                        "%d of water\n" +
+                        "%d of milk\n" +
+                        "%d of coffee beans\n" +
+                        "%d of disposal cups\n" +
+                        "%d of money\n",
+                CoffeeMachine.water, CoffeeMachine.milk, CoffeeMachine.coffeeBeans, CoffeeMachine.disposableCups, CoffeeMachine.money);
+    }
 }
