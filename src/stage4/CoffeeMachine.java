@@ -80,6 +80,7 @@ public class CoffeeMachine {
     }
 
     public void buyAction(CoffeeMachine coffeeMachine) {
+        String buyChoice = coffeeMachine.askAnswer("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:");
 
     }
 
