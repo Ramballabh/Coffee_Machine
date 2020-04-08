@@ -38,6 +38,9 @@ public class CoffeeMachine {
         this.money = money;
     }
 
+    public void menu(CoffeeMachine coffeeMachine) {
+    }
+
     public String askAnswer(String ask) {
         System.out.println(ask);
         return scanner.nextLine();
