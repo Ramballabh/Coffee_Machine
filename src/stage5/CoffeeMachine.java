@@ -15,9 +15,23 @@ public class CoffeeMachine {
         System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:");
         String result = "";
         switch (in.nextLine()) {
-
+            case ("1"): {
+                result = CoffeeMachine.makeCoffee(250, 0, 16, 4);
+                break;
+            }
+            case ("2"): {
+                result = CoffeeMachine.makeCoffee(350, 75, 20, 7);
+                break;
+            }
+            case ("3"): {
+                result = CoffeeMachine.makeCoffee(200, 100, 12, 6);
+                break;
+            }
+            default: {
+                return;
+            }
         }
-    }
+        }
 
     public static String makeCoffee(int water, int milk, int coffeeBeans, int money) {
         String res = "Sorry, not enough ";
