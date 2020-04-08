@@ -49,4 +49,8 @@ public class CoffeeMachine {
         this.cups += cups;
     }
 
+    private void take() {
+        this.money = 0;
+    }
+
 }
