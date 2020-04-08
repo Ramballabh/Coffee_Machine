@@ -17,6 +17,17 @@ public class CoffeeMachine {
     }
 
     public static void fill() {
+        System.out.println("Write, how many ml of water do you want to add:");
+        CoffeeMachine.water += Integer.parseInt(in.nextLine());
+
+        System.out.println("Write, how many ml of milk do you want to add:");
+        CoffeeMachine.milk += Integer.parseInt(in.nextLine());
+
+        System.out.println("Write, how many grams of coffee beans do you want to add:");
+        CoffeeMachine.coffeeBeans += Integer.parseInt(in.nextLine());
+
+        System.out.println("Write, how many disposable cups of coffee do you want to add:");
+        CoffeeMachine.disposableCups += Integer.parseInt(in.nextLine());
 
     }
 }
