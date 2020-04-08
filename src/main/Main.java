@@ -68,6 +68,10 @@ public class Main {
             case 6:
                 stage6.CoffeeMachine coffeeMachine2 = new stage6.CoffeeMachine();
                 boolean status;
+                do {
+                    status = coffeeMachine2.processAction();
+                }
+                while (status);
         }
     }
 }
