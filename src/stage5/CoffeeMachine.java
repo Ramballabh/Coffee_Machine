@@ -15,4 +15,8 @@ public class CoffeeMachine {
         System.out.printf("I gave you $%d\n", CoffeeMachine.money);
         CoffeeMachine.money = 0;
     }
+
+    public static void fill() {
+
+    }
 }
