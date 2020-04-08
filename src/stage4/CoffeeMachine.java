@@ -41,7 +41,9 @@ public class CoffeeMachine {
     public void menu(CoffeeMachine coffeeMachine) {
         String choice = coffeeMachine.askAnswer("Write action (buy, fill, take):");
         switch (choice) {
-
+            case "buy":
+                coffeeMachine.buyAction(coffeeMachine);
+                System.out.println();
         }
     }
 
