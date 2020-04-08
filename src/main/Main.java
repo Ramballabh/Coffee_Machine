@@ -65,6 +65,9 @@ public class Main {
                             System.exit(0);
                     }
                 }
+            case 6:
+                stage6.CoffeeMachine coffeeMachine2 = new stage6.CoffeeMachine();
+
         }
     }
 }
