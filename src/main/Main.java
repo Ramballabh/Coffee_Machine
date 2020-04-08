@@ -40,6 +40,7 @@ public class Main {
                 break;
             case 4:
                 CoffeeMachine coffeeMachine = new CoffeeMachine();
+                coffeeMachine.printMachineState();
 
         }
     }
