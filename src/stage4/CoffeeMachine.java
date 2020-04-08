@@ -40,7 +40,9 @@ public class CoffeeMachine {
 
     public void menu(CoffeeMachine coffeeMachine) {
         String choice = coffeeMachine.askAnswer("Write action (buy, fill, take):");
+        switch (choice) {
 
+        }
     }
 
     public String askAnswer(String ask) {
