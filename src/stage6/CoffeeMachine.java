@@ -29,4 +29,8 @@ public class CoffeeMachine {
                 String.format("%d of disposable cups\n", this.cups) +
                 String.format("%d of money", this.money));
     }
+
+    private void processBuy() {
+
+    }
 }
