@@ -50,4 +50,13 @@ public class CoffeeMachine {
         this.money += 4;
 
     }
+
+    public void makeLatte() {
+        this.milkN -= 75;
+        this.waterN -= 350;
+        this.cups -= 1;
+        this.coffeeN -= 20;
+        this.money += 7;
+    }
+
 }
