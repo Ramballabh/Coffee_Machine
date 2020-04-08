@@ -39,6 +39,8 @@ public class CoffeeMachine {
     }
 
     public void menu(CoffeeMachine coffeeMachine) {
+        String choice = coffeeMachine.askAnswer("Write action (buy, fill, take):");
+
     }
 
     public String askAnswer(String ask) {
