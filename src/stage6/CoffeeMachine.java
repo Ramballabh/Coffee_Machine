@@ -20,4 +20,8 @@ public class CoffeeMachine {
         this.cups = 9;
         this.money = 550;
     }
+
+    public void printState() {
+
+    }
 }
