@@ -49,6 +49,10 @@ public class CoffeeMachine {
                 coffeeMachine.fillAction(coffeeMachine);
                 System.out.println();
                 break;
+            case "take":
+                coffeeMachine.takeAction(coffeeMachine);
+                System.out.println();
+                break;
         }
     }
 
