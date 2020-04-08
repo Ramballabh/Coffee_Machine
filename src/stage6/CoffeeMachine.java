@@ -53,4 +53,7 @@ public class CoffeeMachine {
         this.money = 0;
     }
 
+    private void buy(int type) {
+
+    }
 }
