@@ -10,4 +10,12 @@ public class CoffeeMachine {
     int coffeeN;
     int money;
 
+    public CoffeeMachine() {
+        this.cups = 9;
+        this.waterN = 1200;
+        this.milkN = 540;
+        this.coffeeN = 120;
+        this.money = 550;
+    }
+
 }
