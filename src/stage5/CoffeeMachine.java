@@ -11,6 +11,10 @@ public class CoffeeMachine {
 
     static Scanner in = new Scanner(System.in);
 
+    public static void buy() {
+
+    }
+
     public static String makeCoffee(int water, int milk, int coffeeBeans, int money) {
         String res = "Sorry, not enough ";
         water = CoffeeMachine.water - water;
