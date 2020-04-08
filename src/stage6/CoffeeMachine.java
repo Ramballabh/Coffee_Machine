@@ -119,6 +119,8 @@ public class CoffeeMachine {
     }
 
     public boolean processAction() {
+        System.out.println("Write action (buy, fill, take, remaining, exit):");
+        String action = this.scanner.nextLine();
         return true;
     }
 }
