@@ -10,13 +10,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your choice :" +
-                "1. Stage1" +
-                "2. Stage2" +
-                "3. Stage3" +
-                "4. Stage4" +
-                "5. Stage5" +
-                "6. Stage6 or Final Stage");
+        boolean flag = true;
+        System.out.println("Enter your choice :\n" +
+                "1. Stage1\n" +
+                "2. Stage2\n" +
+                "3. Stage3\n" +
+                "4. Stage4\n" +
+                "5. Stage5\n" +
+                "6. Stage6 or Final Stage\n" +
+                "7. Exit\n");
         int choice = scanner.nextInt();
         switch (choice) {
             case 1:
