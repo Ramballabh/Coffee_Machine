@@ -81,7 +81,17 @@ public class CoffeeMachine {
 
     public void buyAction(CoffeeMachine coffeeMachine) {
         String buyChoice = coffeeMachine.askAnswer("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:");
-
+        switch (buyChoice) {
+            case "1":
+                coffeeMachine.makeEspresso();
+                break;
+            case "2":
+                coffeeMachine.makeLatte();
+                break;
+            case "3":
+                coffeeMachine.makeCappuccino();
+                break;
+        }
     }
 
 }
