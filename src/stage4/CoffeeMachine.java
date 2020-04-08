@@ -68,6 +68,7 @@ public class CoffeeMachine {
     }
 
     public void fillAction(CoffeeMachine coffeeMachine) {
+        coffeeMachine.setWaterN(Integer.parseInt(coffeeMachine.askAnswer("Write how many ml of water do you want to add: ")));
 
     }
 }
