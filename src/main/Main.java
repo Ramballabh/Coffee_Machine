@@ -41,7 +41,8 @@ public class Main {
             case 4:
                 CoffeeMachine coffeeMachine = new CoffeeMachine();
                 coffeeMachine.printMachineState();
-
+                coffeeMachine.menu(coffeeMachine);
+                coffeeMachine.printMachineState();
         }
     }
 }
