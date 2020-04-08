@@ -46,7 +46,25 @@ public class Main {
                 break;
             case 5:
                 stage5.CoffeeMachine coffeeMachine1 = new stage5.CoffeeMachine();
-
+                while (true) {
+                    System.out.println("Write action (buy, fill, take, remaining, exit):");
+                    switch (scanner.nextLine()) {
+                        case ("buy"):
+                            coffeeMachine1.buy();
+                            break;
+                        case ("fill"):
+                            coffeeMachine1.fill();
+                            break;
+                        case ("take"):
+                            coffeeMachine1.take();
+                            break;
+                        case ("remaining"):
+                            coffeeMachine1.showStats();
+                            break;
+                        case ("exit"):
+                            System.exit(0);
+                    }
+                }
         }
     }
 }
