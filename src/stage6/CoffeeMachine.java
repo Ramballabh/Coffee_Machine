@@ -35,6 +35,7 @@ public class CoffeeMachine {
         String type = this.scanner.nextLine();
         if (type.equals("back")) return;
         ;
+        this.buy(Integer.valueOf(type));
     }
 
     private void processTake() {
