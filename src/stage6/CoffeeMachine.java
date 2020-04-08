@@ -54,6 +54,9 @@ public class CoffeeMachine {
     }
 
     private void buy(int type) {
-
+        int water = 0;
+        int milk = 0;
+        int beans = 0;
+        int money = 0;
     }
 }
