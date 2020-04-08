@@ -18,9 +18,30 @@ public class CoffeeMachine {
         this.money = 550;
     }
 
+    public void setCups(int cups) {
+        this.cups += cups;
+    }
+
+    public void setWaterN(int waterN) {
+        this.waterN += waterN;
+    }
+
+    public void setMilkN(int milkN) {
+        this.milkN += milkN;
+    }
+
+    public void setCoffeeN(int coffeeN) {
+        this.coffeeN += coffeeN;
+    }
+
+    public void setMoney(int money) {
+        this.money = money;
+    }
+
     public String askAnswer(String ask) {
         System.out.println(ask);
         return scanner.nextLine();
     }
+
 
 }
