@@ -12,6 +12,7 @@ public class CoffeeMachine {
     static Scanner in = new Scanner(System.in);
 
     public static void take() {
-
+        System.out.printf("I gave you $%d\n", CoffeeMachine.money);
+        CoffeeMachine.money = 0;
     }
 }
