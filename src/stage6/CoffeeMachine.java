@@ -85,5 +85,21 @@ public class CoffeeMachine {
                 break;
             }
         }
+        if (this.water < water) {
+            System.out.println("Sorry, not enough water!");
+        } else if (this.milk < milk) {
+            System.out.println("Sorry, not enough milk!");
+        } else if (this.beans < beans) {
+            System.out.println("Sorry, not enough coffee beans!");
+        } else if (this.cups < 1) {
+            System.out.println("Sorry, not enough disposable cups!");
+        } else {
+            System.out.println("I have enough resources, making you a coffee!");
+            this.water -= water;
+            this.milk -= milk;
+            this.beans -= beans;
+            this.cups--;
+            this.money += money;
+        }
     }
 }
