@@ -59,4 +59,11 @@ public class CoffeeMachine {
         this.money += 7;
     }
 
+    public void makeCappuccino() {
+        this.milkN -= 100;
+        this.waterN -= 200;
+        this.cups -= 1;
+        this.coffeeN -= 12;
+        this.money += 6;
+    }
 }
