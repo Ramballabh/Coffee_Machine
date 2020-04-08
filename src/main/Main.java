@@ -10,6 +10,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your choice :" +
+                "1. Stage1" +
+                "2. Stage2" +
+                "3. Stage3" +
+                "4. Stage4" +
+                "5. Stage5" +
+                "6. Stage6 or Final Stage");
         int choice = scanner.nextInt();
         switch (choice) {
             case 1:
@@ -72,6 +79,7 @@ public class Main {
                     status = coffeeMachine2.processAction();
                 }
                 while (status);
+                break;
         }
     }
 }
