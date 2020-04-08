@@ -116,6 +116,9 @@ public class CoffeeMachine {
             this.cups--;
             this.money += money;
         }
+    }
 
+    public boolean processAction() {
+        return true;
     }
 }
