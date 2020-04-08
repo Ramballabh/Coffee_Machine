@@ -43,7 +43,10 @@ public class CoffeeMachine {
     }
 
     private void fill(int water, int milk, int beans, int cups) {
-
+        this.water += water;
+        this.milk += milk;
+        this.beans += beans;
+        this.cups += cups;
     }
 
 }
