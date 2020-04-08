@@ -53,6 +53,8 @@ public class CoffeeMachine {
                 coffeeMachine.takeAction(coffeeMachine);
                 System.out.println();
                 break;
+            default:
+                System.out.println("Wrong cho");
         }
     }
 
