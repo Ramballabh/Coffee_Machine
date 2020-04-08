@@ -66,4 +66,8 @@ public class CoffeeMachine {
         this.coffeeN -= 12;
         this.money += 6;
     }
+
+    public void fillAction(CoffeeMachine coffeeMachine) {
+
+    }
 }
