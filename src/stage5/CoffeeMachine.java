@@ -13,6 +13,9 @@ public class CoffeeMachine {
 
     public static String makeCoffee(int water, int milk, int coffeeBeans, int money) {
         String res = "Sorry, not enough ";
+        water = CoffeeMachine.water - water;
+        milk = CoffeeMachine.milk - milk;
+        coffeeBeans = CoffeeMachine.coffeeBeans - coffeeBeans;
         return res;
     }
 
