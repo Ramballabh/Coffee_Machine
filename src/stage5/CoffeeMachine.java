@@ -10,4 +10,8 @@ public class CoffeeMachine {
     static int money = 550;
 
     static Scanner in = new Scanner(System.in);
+
+    public static void take() {
+
+    }
 }
