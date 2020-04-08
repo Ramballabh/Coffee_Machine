@@ -3,6 +3,7 @@ package main;
 import stage1.Stage1;
 import stage2.Stage2;
 import stage3.Stage3;
+import stage4.CoffeeMachine;
 
 import java.util.Scanner;
 
@@ -37,6 +38,9 @@ public class Main {
                 int n = scanner.nextInt();
                 stage3.amountOfCoffee(water, milk, beans, n);
                 break;
+            case 4:
+                CoffeeMachine coffeeMachine = new CoffeeMachine();
+
         }
     }
 }
