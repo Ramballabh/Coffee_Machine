@@ -67,7 +67,7 @@ public class Main {
                 }
             case 6:
                 stage6.CoffeeMachine coffeeMachine2 = new stage6.CoffeeMachine();
-
+                boolean status;
         }
     }
 }
