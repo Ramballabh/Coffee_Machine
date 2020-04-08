@@ -43,5 +43,11 @@ public class CoffeeMachine {
         return scanner.nextLine();
     }
 
+    public void makeEspresso() {
+        this.waterN -= 250;
+        this.cups -= 1;
+        this.coffeeN -= 16;
+        this.money += 4;
 
+    }
 }
