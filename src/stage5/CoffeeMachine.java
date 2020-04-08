@@ -11,6 +11,11 @@ public class CoffeeMachine {
 
     static Scanner in = new Scanner(System.in);
 
+    public static String makeCoffee(int water, int milk, int coffeeBeans, int money) {
+        String res = "Sorry, not enough ";
+        return res;
+    }
+
     public static void take() {
         System.out.printf("I gave you $%d\n", CoffeeMachine.money);
         CoffeeMachine.money = 0;
@@ -28,6 +33,6 @@ public class CoffeeMachine {
 
         System.out.println("Write, how many disposable cups of coffee do you want to add:");
         CoffeeMachine.disposableCups += Integer.parseInt(in.nextLine());
-
     }
+
 }
