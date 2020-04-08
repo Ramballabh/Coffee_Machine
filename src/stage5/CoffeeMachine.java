@@ -13,7 +13,10 @@ public class CoffeeMachine {
 
     public static void buy() {
         System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:");
+        String result = "";
+        switch (in.nextLine()) {
 
+        }
     }
 
     public static String makeCoffee(int water, int milk, int coffeeBeans, int money) {
