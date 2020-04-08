@@ -16,6 +16,26 @@ public class CoffeeMachine {
         water = CoffeeMachine.water - water;
         milk = CoffeeMachine.milk - milk;
         coffeeBeans = CoffeeMachine.coffeeBeans - coffeeBeans;
+        if (water < 0) {
+            res += "water ";
+        }
+        if (milk < 0) {
+            res += "milk ";
+        }
+        if (coffeeBeans < 0) {
+            res += "coffee ";
+        }
+        if (CoffeeMachine.disposableCups < 1) {
+            res += "disposable cups";
+        }
+        if (res.length() == 18) {
+            CoffeeMachine.water = water;
+            CoffeeMachine.milk = milk;
+            CoffeeMachine.coffeeBeans = coffeeBeans;
+            CoffeeMachine.money += money;
+            CoffeeMachine.disposableCups--;
+            res = "I have enough resources, making you a coffee!";
+        }
         return res;
     }
 
