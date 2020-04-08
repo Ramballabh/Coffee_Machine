@@ -38,11 +38,23 @@ public class CoffeeMachine {
         this.buy(Integer.valueOf(type));
     }
 
+    private void processFill() {
+        System.out.println("Write how many ml of water do you want to add:");
+        int water = scanner.nextInt();
+        System.out.println("Write how many ml of milk do you want to add:");
+        int milk = scanner.nextInt();
+        System.out.println("Write how many grams of coffee beans do you want to add:");
+        int beans = scanner.nextInt();
+        System.out.println("Write how many disposable cups of coffee do you want to add:");
+        int cups = scanner.nextInt();
+
+        this.fill(water, milk, beans, cups);
+
+    }
+
     private void processTake() {
         System.out.println(String.format("I gave you $%d", this.money));
         this.take();
-
-
     }
 
     private void fill(int water, int milk, int beans, int cups) {
