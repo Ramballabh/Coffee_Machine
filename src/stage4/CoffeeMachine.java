@@ -18,4 +18,9 @@ public class CoffeeMachine {
         this.money = 550;
     }
 
+    public String askAnswer(String ask) {
+        System.out.println(ask);
+        return scanner.nextLine();
+    }
+
 }
